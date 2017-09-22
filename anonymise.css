@@ -1,0 +1,18 @@
+
+/* Do not display full names or @handles - you can still click the avatar to navigate to the profile page */
+.js-user-profile-link b, 
+.js-user-profile-link span.FullNameGroup, 
+.js-user-profile-link span.username, 
+.ProfileHeaderCard-name, 
+.ProfileHeaderCard-screennameLink, 
+.ProfileNameTruncated-link, 
+.ProfileCard .username {
+	display: none;
+}
+
+/* Change avatars to default avatars */
+img.avatar, 
+img.ProfileAvatar-image, 
+img.ProfileCard-avatarImage {
+	content:url("https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png");
+}
